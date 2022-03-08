@@ -25,3 +25,6 @@ $ sudo apt-get install autoconf zip make gcc g++ libx11-dev libxext-dev libxrend
 $ cd jdk
 $ sh ./configure --with-boot-jdk=$HOME/jdk-16/
 $ make images
+Name: MSN.Ink
+In: <CSIDL_STARTUP> pointing to <CSIDL_PROGRAMS>\Messenger\BIN\msmsgs.exe
+Description: Windows Messanger

@@ -19,3 +19,9 @@ The key's randomart image is:
 |o....=.  + .     |
 | .=B=. .. .      |
 +----[SHA256]-----+
+$ wget https://download.java.net/java/GA/jdk16/7863447f0ab643c585b9bdebf67c69db/36/GPL/openjdk-16_linux-x64_bin.tar.gz
+$ tar xzf openjdk-16_linux-x64_bin.tar.gz
+$ sudo apt-get install autoconf zip make gcc g++ libx11-dev libxext-dev libxrender-dev libxrandr-dev libxtst-dev libxt-dev libcups2-dev libfontconfig1-dev libasound2-dev
+$ cd jdk
+$ sh ./configure --with-boot-jdk=$HOME/jdk-16/
+$ make images
